@@ -30,4 +30,4 @@ def menedzeris_f(reitingu_skaits,reitings,zvaigznes,apmekletajs,paroles,treneris
         print(f"{abonementi[i]} cilvēki pieteikušies: {abonesanas_skaits[i]}") #rāda cik cilvēki ir pieteikušies
      elif jautajumi==(8):#ja izvēlas 8
       print(abonetaji) #rāda abonējušo skaitu
-     jautajumi=(str(input("Vai vēlaties beigt? ")))
+     jautajumi=(str(input("Vai vēlaties beigt?: ")))
