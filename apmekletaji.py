@@ -3,7 +3,7 @@ def apmekletajs_f(reitingu_skaits,reitings,zvaigznes,apmekletajs,paroles,treneri
     jautajumi=("nē")       
     velme=str(input("vai gribi trenēties viens, vai ar treneri?: ")) # dod izvēli treneties vienam vai ar treneri
     if velme=="treneri" or velme=="ar treneri":
-      bridinajums=str(input("(lai pieteiktos pie trenera tev jabūt abonētājam)Vai Jūs esi abonētajs?: ")) #brīdina, ka tikai abonementi var treneties ar treneri
+      bridinajums=str(input("(lai pieteiktos pie trenera tev jabūt abonētājam)Vai jūs esat abonētajs?: ")) #brīdina, ka tikai abonementi var treneties ar treneri
       while bridinajums==("jā"): 
         if abonetaji==[]:
           print("nav abonētāju")
